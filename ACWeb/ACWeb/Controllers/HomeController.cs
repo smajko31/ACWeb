@@ -6,9 +6,9 @@ using System.Web.Mvc;
 
 namespace ACWeb.Controllers
 {
-    public class HomeController : Controller
+    public class MainController : Controller
     {
-        public ActionResult Index()
+        public ActionResult Home()
         {
             return View();
         }
