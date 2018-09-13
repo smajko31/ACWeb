@@ -30,6 +30,10 @@ html, body {
   border-top: 4px solid dodgerblue;
 }
 
+.big-row {
+    background-color:rgba(0, 0, 0, .8);
+}
+
 .header {
   background-color: rgba(255, 255, 255, 0.95);
   /* remove the gradient */
