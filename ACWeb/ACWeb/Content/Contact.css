@@ -1,9 +1,8 @@
 ﻿@import url(https://fonts.googleapis.com/css?family=Merriweather);
 
-*,
-*:before,
-*:after 
-{
+#contact-container,
+#contact-container:before,
+#contact-container:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
