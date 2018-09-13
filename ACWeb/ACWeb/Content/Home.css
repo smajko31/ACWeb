@@ -1,8 +1,10 @@
-﻿* {
+﻿* 
+{
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
-html, body {
+html, body 
+{
   height: 100%;
   margin: 0;
   background: url(http://sta-hvac.com/wp-content/uploads/2016/04/industrial-HVAC.jpg) no-repeat center center fixed;
@@ -12,34 +14,42 @@ html, body {
   background-size: cover;
 }
 
-#home-content {
+#home-content 
+{
   margin-top: 80px;
   color: white;
 }
 
-.navbar-inner li {
+.navbar-inner li 
+{
   line-height: 40px;
   letter-spacing: 2px;
 }
 
-.nav-link {
+.nav-link 
+{
   border-top: 4px solid white;
   transition: border-top .3s;
 }
-.nav-link:hover {
+
+.nav-link:hover 
+{
   border-top: 4px solid dodgerblue;
 }
 
-.big-row {
+.big-row 
+{
     background-color:rgba(0, 0, 0, .8);
 }
 
-.row {
+.row 
+{
     padding-left: 25px;
     padding-right: 25px;
 }
 
-.header {
+.header 
+{
   background-color: rgba(255, 255, 255, 0.95);
   /* remove the gradient */
   background-image: none !important;
@@ -48,7 +58,8 @@ html, body {
   box-shadow: 0 12px 6px -6px rgba(0, 0, 0, 0.2) !important;
 }
 
-.footer {
+.footer 
+{
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
   /* W3C */
   /* remove the gradient */
@@ -56,26 +67,32 @@ html, body {
   box-shadow: none !important;
 }
 
-.center {
+.center 
+{
   margin: auto;
   position: absolute;
   left: 0;
   right: 0;
 }
 
-.txt {
+.txt 
+{
   color: white;
   text-shadow: 0 1px 0 #333, 0 2px 0 #333, 0 3px 0 #333, 0 4px 0 #333, 0 5px 0 #333, 0 3px 1px rgba(255, 255, 255, 0.1);
 }
 
-h3 {
+h3 
+{
   transition: color .5s;
 }
-h3:hover {
+
+h3:hover 
+{
   color: rgba(36, 142, 255, 0.8);
 }
 
-#big-icon {
+#big-icon 
+{
   color: white;
   opacity: .8;
   font-size: 150px;
@@ -83,8 +100,8 @@ h3:hover {
   padding: 0px 10px
 }
 
-
-.team-img {
+.team-img 
+{
   border-radius: 50%;
   border: 10px solid white;
   -webkit-box-shadow: 0 8px 6px -6px black;
