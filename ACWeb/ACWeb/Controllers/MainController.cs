@@ -8,11 +8,13 @@ namespace ACWeb.Controllers
 {
     public class MainController : Controller
     {
+        [Route("Home")]
         public ActionResult Home()
         {
             return View();
         }
 
+        [Route("Services")]
         public ActionResult Services()
         {
             return View();
