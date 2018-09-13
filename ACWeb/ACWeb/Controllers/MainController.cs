@@ -13,10 +13,8 @@ namespace ACWeb.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Services()
         {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
 
