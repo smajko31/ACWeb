@@ -1,7 +1,14 @@
 ﻿@import url(https://fonts.googleapis.com/css?family=Merriweather);
 
-body {
-    margin: 0;
+html, body 
+{
+  height: 100%;
+  margin: 0;
+  background: url(http://sta-hvac.com/wp-content/uploads/2016/04/industrial-HVAC.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #contact-container,
