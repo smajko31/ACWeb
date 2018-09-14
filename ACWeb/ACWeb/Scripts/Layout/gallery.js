@@ -1,3 +1,7 @@
-﻿document.addEventListener('DOMContentLoaded', function () {
-    Code.photoSwipe('a', '#Gallery', { captionAndToolbarHideOnSwipe: false });
-}, false);
+﻿$(document).ready(function () {
+    $("img").click(function () {
+        var t = $(this).attr("src");
+        $(".modal-body").html("<img src='" + t + "' class='modal-img'>");
+        $("#myModal").modal();
+    });
+});
