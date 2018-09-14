@@ -12,6 +12,16 @@
     border-radius: 0px;
 }
 
+.item
+{
+    padding-top: 30px;
+}
+
+.caption
+{
+    padding: 25px 9px 9px 9px;
+}
+
 .item.list-group-item
 {
     float: none;
