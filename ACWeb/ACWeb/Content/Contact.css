@@ -1,5 +1,9 @@
 ﻿@import url(https://fonts.googleapis.com/css?family=Merriweather);
 
+body {
+    margin: 0;
+}
+
 #contact-container,
 #contact-container:before,
 #contact-container:after {
@@ -8,15 +12,13 @@
     box-sizing: border-box;
 }
 
-html, body 
-{
-    background: #f1f1f1;
-    font-family: 'Merriweather', sans-serif;
-    padding: 1em;
-}
+    #contact-container html, #contact-container body {
+        background: #f1f1f1;
+        font-family: 'Merriweather', sans-serif;
+        padding: 1em;
+    }
 
-h1 
-{
+#contact-container h1 {
     text-align: center;
     color: #a8a8a8;
     text-shadow: 1px 1px 0 white;
