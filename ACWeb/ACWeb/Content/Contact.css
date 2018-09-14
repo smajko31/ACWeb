@@ -92,9 +92,9 @@ form
     margin-bottom: 1em;
 }
 
-.right 
-{
+.right {
     width: 50%;
+    padding-left: 10px;
 }
 
 .left 
