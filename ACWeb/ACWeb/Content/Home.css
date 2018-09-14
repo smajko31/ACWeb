@@ -93,11 +93,12 @@ h3:hover
 
 #big-icon 
 {
-  color: white;
-  opacity: .8;
-  font-size: 150px;
-  text-shadow: 1px 1px white, -1px -1px #666;
-  padding: 0px 10px
+    color: white;
+    opacity: .8;
+    font-size: 120px;
+    margin-top: 50px;
+    text-shadow: 1px 1px white, -1px -1px #666;
+    padding: 0px 10px
 }
 
 .team-img 
@@ -107,4 +108,9 @@ h3:hover
   -webkit-box-shadow: 0 8px 6px -6px black;
   -moz-box-shadow: 0 8px 6px -6px black;
   box-shadow: 0 8px 6px -6px black;
+}
+
+
+.col-md-1.text-center h3 {
+    margin: auto !important;
 }
