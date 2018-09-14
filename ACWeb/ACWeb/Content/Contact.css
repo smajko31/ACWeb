@@ -17,6 +17,10 @@ html, body
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    background-color:rgba(0, 0, 0, .8);
+    padding: 55px;
+    margin: 50px 25%;
+    width: 50%;
 }
 
     #contact-container html, #contact-container body {
@@ -27,13 +31,12 @@ html, body
 
 #contact-container h1 {
     text-align: center;
-    color: #a8a8a8;
-    text-shadow: 1px 1px 0 white;
+    color: white;
+    text-shadow: 1px 1px 0 black;
 }
 
 form 
 {
-    max-width: 600px;
     text-align: center;
     margin: 20px auto;
 }
@@ -85,7 +88,7 @@ form
 .half 
 {
     float: left;
-    width: 48%;
+    width: 38%;
     margin-bottom: 1em;
 }
 
@@ -96,7 +99,7 @@ form
 
 .left 
 {
-    margin-right: 2%;
+    margin-right: 5%;
 }
 
 @media (max-width: 480px) 
