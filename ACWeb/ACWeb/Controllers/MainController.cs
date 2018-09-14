@@ -20,10 +20,9 @@ namespace ACWeb.Controllers
             return View();
         }
 
+        [Route("Contact")]
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
-
             return View();
         }
     }
