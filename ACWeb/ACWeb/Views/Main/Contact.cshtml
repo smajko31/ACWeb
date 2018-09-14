@@ -1,17 +1,30 @@
-﻿<link href="~/Content/Contact.css" rel="stylesheet" type="text/css" />
+﻿@model ACWeb.Models.ContactInfo
+
+<link href="~/Content/Contact.css" rel="stylesheet" type="text/css" />
 
 <div id="contact-container">
     <h1>Contact Us</h1>
-    <form class="cf">
+        @Html.BeginForm("Contact", "Service", FormMethod.Post, new { @id = "cf" })
+        {
         <div class="half left cf">
-            <input type="text" id="input-name" placeholder="Name">
+            @Html.TextBoxFor(m => m.Name)
+            @Html.ValidationMessageFor(m => m.Name, "", new { htmlattributes = new { id = "input-name", placeholder = "Name", type = "text" } });
+            @Html.TextBoxFor(m => m.Email)
+            @Html.ValidationMessageFor(m => m.Email, "", new { htmlattributes = new { id = "input-email", placeholder = "Email Address", type = "text" } });
+            @Html.TextBoxFor(m => m.Phone)
+            @Html.ValidationMessageFor(m => m.Phone, "", new { htmlattributes = new { id = "input-phone", placeholder = "Phone", type = "text" } });
+            @Html.TextBoxFor(m => m.Subject)
+            @Html.ValidationMessageFor(m => m.Subject, "", new { htmlattributes = new { id = "input-subject", placeholder = "Subject", type = "text" } });
+            @*<input type="text" id="input-name" placeholder="Name">
             <input type="email" id="input-email" placeholder="Email address">
             <input type="tel" id="input-phone" placeholder="Phone">
-            <input type="text" id="input-subject" placeholder="Subject">
+            <input type="text" id="input-subject" placeholder="Subject">*@
         </div>
         <div class="half right cf">
-            <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+            @Html.TextBoxFor(m => m.Message)
+            @Html.ValidationMessageFor(m => m.Message, "", new { htmlattributes = new { id = "input-message", placeholder = "Message", type = "text" } });
+            @*<textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>*@
         </div>
         <input type="submit" value="Submit" id="input-submit">
-    </form>
+        }
 </div>
