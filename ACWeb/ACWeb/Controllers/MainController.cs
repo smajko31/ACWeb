@@ -20,6 +20,12 @@ namespace ACWeb.Controllers
             return View();
         }
 
+        [Route("Gallery")]
+        public ActionResult Gallery()
+        {
+            return View();
+        }
+
         [Route("Contact")]
         public ActionResult Contact()
         {
