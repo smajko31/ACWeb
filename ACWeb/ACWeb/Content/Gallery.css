@@ -107,8 +107,10 @@ p {
 .modal-img, .model-vid {
     width: 100%;
     height: auto;
+    z-index: 6;
 }
 
 .modal-body {
     padding: 0px;
+    z-index: 6;
 }
