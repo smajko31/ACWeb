@@ -164,6 +164,7 @@
     <Content Include="Content\Contact.css" />
     <Content Include="Content\Gallery.css" />
     <Content Include="Content\Home.css" />
+    <Content Include="Content\Logo.css" />
     <Content Include="Content\Services.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />

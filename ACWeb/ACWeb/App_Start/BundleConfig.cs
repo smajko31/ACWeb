@@ -24,7 +24,7 @@ namespace ACWeb
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      //"~/Content/bootstrap.css",
+                      "~/Content/Logo.css",
                       "~/Content/site.css"));
         }
     }

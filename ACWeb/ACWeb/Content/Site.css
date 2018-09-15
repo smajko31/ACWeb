@@ -8,15 +8,6 @@
   width: 100%; height: 100%;
 }
 
-.layout h1 {
-  margin: 0px;
-  padding: 100px 0px;
-  color: #FFF;
-  font: bold 40px 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-  letter-spacing: 5px;
-  text-align: center;
-}
-
 .layout p {
   margin: 0px;
   padding: 10px 20px;
