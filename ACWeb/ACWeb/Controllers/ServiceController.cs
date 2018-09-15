@@ -8,6 +8,7 @@ namespace ACWeb.Controllers
         [HttpPost]
         public ActionResult Contact(ContactInfo ci)
         {
+            ci.Send();
             return View();
         }
     }
