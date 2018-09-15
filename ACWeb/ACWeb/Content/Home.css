@@ -91,6 +91,10 @@ h3:hover
   color: rgba(36, 142, 255, 0.8);
 }
 
+.fa-4x {
+    margin: 10px 0px;
+}
+
 #big-icon 
 {
     color: white;
