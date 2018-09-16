@@ -4,8 +4,9 @@
     text-align: center;
     color: black;
     padding: 1%;
-    margin-bottom: -15px;
+    margin-bottom: 15px;
     margin-top: 20px;
+    background-color:rgba(0, 0, 0, .8);
 }
 
 #gallery {
@@ -52,8 +53,8 @@ h1 {
         }
 
 p {
-    font-size: 1.2rem;
-    color: gray;
+    font-size: 1.9rem;
+    color: white;
     text-transform: uppercase;
 }
 
@@ -61,7 +62,7 @@ p {
     -moz-animation-delay: 1s;
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 
