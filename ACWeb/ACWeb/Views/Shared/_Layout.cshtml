@@ -12,13 +12,14 @@
         <div id="header">
             <h1 class="logo">Prestige Heating & Air</h1>
         </div>
-
-        <div id="navbar">
-            @Html.ActionLink("Home","Home","Main", null, null)
-            @Html.ActionLink("Services", "Services", "Main", null, null)
-            @Html.ActionLink("Gallery", "Gallery", "Main", null, null)
-            @Html.ActionLink("Contact", "Contact", "Main", null, null)
-        </div>
+        <nav id="navbar">
+            <ul>
+                <li> @Html.ActionLink("Home", "Home", "Main", null, null)           </li>
+                <li> @Html.ActionLink("Services", "Services", "Main", null, null)   </li>
+                <li> @Html.ActionLink("Gallery", "Gallery", "Main", null, null)     </li>
+                <li> @Html.ActionLink("Contact", "Contact", "Main", null, null)     </li>
+            </ul>
+        </nav>
     </div>
 
 
