@@ -9,6 +9,7 @@ namespace ACWeb.Controllers
         public ActionResult Contact(ContactInfo ci)
         {
             ci.Send();
+            ViewBag.Message = "Success!";
             return View();
         }
     }
