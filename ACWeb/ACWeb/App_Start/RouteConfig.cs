@@ -13,6 +13,7 @@ namespace ACWeb
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
             routes.MapRoute("Default","{action}", new { controller = "Main", action = "Home", id = UrlParameter.Optional });
+            routes.MapRoute("AltRoute", "{controller}/{action}", new { controller = "Main", action = "Home", id = UrlParameter.Optional });
         }
     }
 }

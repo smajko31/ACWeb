@@ -3,6 +3,13 @@
 <link href="~/Content/Contact.css" rel="stylesheet" type="text/css" />
 <link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css" />
 
+@if (TempData["sent"] != null)
+{
+    <script type="text/javascript">
+        alert(@TempData["sent"]);
+    </script>
+}
+
 <div id="contact-container">
     <h1>Contact Us</h1>
         @using (Html.BeginForm("Contact", "Service", FormMethod.Post, new { @class = "cf" }))
