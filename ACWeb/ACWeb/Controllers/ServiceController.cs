@@ -9,8 +9,8 @@ namespace ACWeb.Controllers
         public ActionResult Contact(ContactInfo ci)
         {
             ci.Send();
-            ViewBag.Message = "Success!";
-            return View();
+            TempData["Message"] = "Your message has been delivered!";
+            return RedirectToAction("Contact", "Main", null);
         }
     }
 }
