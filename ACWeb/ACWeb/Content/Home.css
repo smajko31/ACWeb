@@ -48,6 +48,12 @@ html, body
     padding-right: 25px;
 }
 
+.checked {
+    color: orange;
+    font-size: x-large;
+    padding-bottom: 10px;
+}
+
 .header 
 {
   background-color: rgba(255, 255, 255, 0.95);
