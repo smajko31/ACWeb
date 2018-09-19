@@ -1,9 +1,4 @@
-﻿* 
-{
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-}
-
-html, body 
+﻿html, body 
 {
   height: 100%;
   margin: 0;
@@ -18,6 +13,7 @@ html, body
   margin-top: 80px;
   margin-bottom: 50px;
   color: white;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 .navbar-inner li 
