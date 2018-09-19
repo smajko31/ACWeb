@@ -2,6 +2,13 @@
 
 <link href="~/Content/Contact.css" rel="stylesheet" type="text/css" />
 <link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+
+@if (ViewBag.Message != null)
+{
+    <script> $(document).ready(function () { alert('@ViewBag.Message'); }); </script>
+}
 
 @if (TempData["sent"] != null)
 {
@@ -12,17 +19,17 @@
 
 <div id="contact-container">
     <h1>Contact Us</h1>
-        @using (Html.BeginForm("Contact", "Service", FormMethod.Post, new { @class = "cf" }))
-        {
+    @using (Html.BeginForm("Contact", "Service", FormMethod.Post, new { @class = "cf" }))
+    {
         <div class="half left cf">
             @Html.TextBoxFor(m => m.Name, new { id = "input-name", placeholder = "Name" })
             @Html.TextBoxFor(m => m.Email, new { id = "input-email", placeholder = "Email Address" })
             @Html.TextBoxFor(m => m.Phone, new { id = "input-phone", placeholder = "Phone" })
-            @Html.TextBoxFor(m => m.Subject, new { id = "input-subject", placeholder = "Subject" })
+            @Html.TextBoxFor(m => m.Address, new { id = "input-address", placeholder = "Address" })
         </div>
         <div class="half right cf">
-            @Html.TextAreaFor(m => m.Message, new { id = "input-message", placeholder = "Message", name = "message"})
+            @Html.TextAreaFor(m => m.Message, new { id = "input-message", placeholder = "Message", name = "message" })
         </div>
         <input type="submit" value="Submit" id="input-submit">
-        }
+    }
 </div>
