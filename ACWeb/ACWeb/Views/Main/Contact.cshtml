@@ -10,6 +10,15 @@
     <script> $(document).ready(function () { alert('@TempData["Message"]'); }); </script>
 }
 
+@{
+    var selectList = new SelectList(
+        new List<SelectListItem>
+        {
+            new SelectListItem {Text = "Free Quote", Value = "Free Quote"},
+            new SelectListItem {Text = "Question/Inquiry", Value = "Question/Inquiry"},
+        }, "Value", "Text");
+}
+
 <div id="contact-container">
     <h1>Contact Us</h1>
     @using (Html.BeginForm("Contact", "Service", FormMethod.Post, new { @class = "cf" }))
@@ -22,6 +31,7 @@
         </div>
         <div class="half right cf">
             @Html.TextAreaFor(m => m.Message, new { id = "input-message", placeholder = "Message", name = "message" })
+            @Html.DropDownListFor(m => m.Subject, selectList, "-- select --", new { @class = "selectBox" })
         </div>
         <input type="submit" value="Submit" id="input-submit">
     }
