@@ -63,6 +63,7 @@ p {
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
     margin-bottom: 10px;
+    z-index: 6;
 }
 
 
